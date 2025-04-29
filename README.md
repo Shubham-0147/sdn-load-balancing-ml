@@ -9,5 +9,4 @@ This project implements a **dynamic load balancing** strategy in a Software-Defi
 - **Visualization**: Dashboard/plots for throughput, latency, packet loss, and other metrics.  
 - **Evaluation**: Compute performance metrics (throughput, latency, packet loss, jitter, prediction accuracy).
 
-## Project Structure
 
