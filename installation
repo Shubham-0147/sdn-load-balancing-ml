@@ -1,0 +1,10 @@
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/sdn-dynamic-load-balancing.git
+   cd sdn-dynamic-load-balancing
+pip install -r requirements.txt
+ryu-manager --verbose src/sdn_controller.py
+sudo mn --topo tree,depth=2,fanout=2 --controller remote
