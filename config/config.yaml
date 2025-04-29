@@ -1,0 +1,21 @@
+# Configuration for SDN dynamic load balancing
+
+# Machine Learning model paths
+model:
+  lstm_model_path: "../models/lstm_model.h5"
+  rf_model_path: "../models/rf_model.pkl"
+
+# Monitoring parameters
+monitor:
+  interval: 10            # seconds between polling stats
+  top_n_paths: 3          # number of candidate paths to consider
+
+# Feature preprocessing settings
+preprocessing:
+  test_size: 0.2
+  random_state: 42
+  pca_components: 5
+
+# Network settings (used in SDN controller)
+network:
+  use_ipv6: False
